@@ -39,9 +39,9 @@ This project investigates whether featuring another artist on a song is associat
 ├── README.md
 ├── requirements.txt
 ├── data/
-│   └── all_songs_data.csv
+│   └── I could but just go download it from the link lmao
 ├── notebooks/
-│   └── analysis.ipynb
+    └── analysis.ipynb
 ```
 
 ## Setup
@@ -59,5 +59,7 @@ jupyter notebook notebooks/analysis.ipynb
 - numpy
 - matplotlib
 - seaborn
+- scikit-learn
+- scipy
 - scikit-learn
 - scipy
