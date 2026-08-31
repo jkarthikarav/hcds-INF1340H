@@ -33,12 +33,6 @@ This project investigates whether featuring another artist on a song is associat
 
 **Conclusion:** There is a small, directionally favorable trend toward featured songs ranking higher, but it is not statistically significant given the sample and variance. The data does not support a claim that collaboration meaningfully improves — let alone causes — a better chart rank.
 
-## Limitations
-
-- Only one predictor (`Featured Artists`) is used; chart rank is influenced by many other factors (genre, artist popularity, streaming trends, etc.) not captured here.
-- No reliable data on songs that failed to chart, so "charting probability" could not be modeled with real data and was excluded from the final analysis.
-- Dataset does not extend past 2019 lyrics coverage in its original form; chart data for 2020–2023 relies on the same source's chart-only records.
-
 ## Repository Structure
 
 ```
@@ -48,8 +42,6 @@ This project investigates whether featuring another artist on a song is associat
 │   └── all_songs_data.csv
 ├── notebooks/
 │   └── analysis.ipynb
-└── images/
-    └── *.png
 ```
 
 ## Setup
