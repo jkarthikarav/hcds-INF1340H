@@ -9,7 +9,7 @@ This project investigates whether featuring another artist on a song is associat
 
 ## Data
 
-- Source: [Top 100 Songs & Lyrics From 1959–2019](https://www.kaggle.com/datasets/brianblakely/top-100-songs-and-lyrics-from-1959-to-2019) (Kaggle, Brian Blakely)
+- Source: [Top 100 Songs & Lyrics From 1959–2023](https://www.kaggle.com/datasets/brianblakely/top-100-songs-and-lyrics-from-1959-to-2019) (Kaggle, Brian Blakely)
 - Filtered to 2003–2023
 - Columns used: `Year`, `Song Title`, `Artist`, `Rank`, `Featured Artists`
 
@@ -31,7 +31,7 @@ This project investigates whether featuring another artist on a song is associat
 - Welch's t-test: t = 1.71, **p = 0.088** — not statistically significant at α = 0.05.
 - Linear regression MSE ≈ 872 (RMSE ≈ 30) — `Featured Artists` alone has very weak predictive power for rank.
 
-**Conclusion:** There is a small, directionally favorable trend toward featured songs ranking higher, but it is not statistically significant given the sample and variance. The data does not support a claim that collaboration meaningfully improves — let alone causes — a better chart rank.
+**Conclusion:** There is a small, directionally favorable trend toward featured songs ranking higher, but it is not statistically significant given the sample and variance. The data does not support a claim that collaboration meaningfully improves a better chart rank.
 
 ## Repository Structure
 
